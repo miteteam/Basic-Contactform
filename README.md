@@ -13,3 +13,159 @@ A school project, creating a contact form for a school questionnaire. The questi
  Team Siic;li
  (programming students) are focusing on the back-end coding.
  
+--HTML--
+
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  <header>
+      <div class="col-xs-12">
+        <div class="row">
+           <div class="container">
+             <h2><b>Saatko sinä täydellisen hyödyn Haaga-Helian opetussuunnitelmasta?</b></h2>
+             
+             <p>Oletko toisen vuoden tai sitä pidempään opiskellut opiskelija? Nyt sinulla on sopiva aika vastata kyselyyn, jossa tutkimme opiskelijoiden tyytyväisyyttä tämän hetken opetussuunnitelmaan. Jos siis et ole ollut tyytyväinen, niin vastaa tähän kyselyyn ja vaikutat sillä tulevaisuuden opiskelun laatuun!<br>Mikäli olet tyytyväinen, niin sinun vastauksesi on myös erittäin merkittävä!</p>
+             <a href="#question1" class="btn btn-default">Siirry kyselyyn <i class="fa fa-angle-double-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="question1" id="question1">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <h3><b>Oletko tyytyväinen tämän hetken opetussuunnitelmaan?</b></h3>
+         <form>
+            <input id="radio-1" class="radio-button" name="radio-group" type="radio">
+            <label for="radio-1" class="radio-button-label">Täysin eri mieltä</label>
+           
+            <input id="radio-2" class="radio-button"name="radio-group" type="radio">
+            <label for="radio-2" class="radio-button-label">Jokseekin eri mieltä</label>
+           
+            <input id="radio-3" class="radio-button" name="radio-group" type="radio">
+            <label for="radio-3" class="radio-button-label">Ei samaa eikä eri mieltä</label>
+           
+            <input id="radio-4" class="radio-button" name="radio-group" type="radio">
+            <label for="radio-4" class="radio-button-label">Jokseekin samaa mieltä</label>
+           
+            <input id="radio-5" class="radio-button" name="radio-group" type="radio">
+            <label for="radio-5" class="radio-button-label">Täysin samaa mieltä</label>
+          </form>
+           
+           <div class="btn-group">
+            <a href="#question2" class="btn btn-default">Seuraava <i class="fa fa-angle-double-right"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <section class="question2" id="question2">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <h3><b>Onko opetussuunnitelma ollut mielestäsi johdonmukainen?</b></h3>
+   <form>
+            <input id="radio2-1" class="radio-button" name="radio-group" type="radio">
+            <label for="radio2-1" class="radio-button-label">Täysin eri mieltä</label>
+           
+            <input id="radio2-2" class="radio-button"name="radio-group" type="radio">
+            <label for="radio2-2" class="radio-button-label">Jokseekin eri mieltä</label>
+           
+            <input id="radio2-3" class="radio-button" name="radio-group" type="radio">
+            <label for="radio2-3" class="radio-button-label">Ei samaa eikä eri mieltä</label>
+           
+            <input id="radio2-4" class="radio-button" name="radio-group" type="radio">
+            <label for="radio2-4" class="radio-button-label">Jokseekin samaa mieltä</label>
+           
+            <input id="radio2-5" class="radio-button" name="radio-group" type="radio">
+            <label for="radio2-5" class="radio-button-label">Täysin samaa mieltä</label>
+          </form>
+          
+           <div class="btn-group">
+             <a href="#question1" class="btn btn-default"><i class="fa fa-angle-double-left"></i> Edellinen</a>
+            <a href="#question3" class="btn btn-default">Seuraava <i class="fa fa-angle-double-right"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <section class="question3" id="question3">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <h3><b>Oletko tyytyväinen opettajien onnistumisessa kurssin toteutuksessa?</b></h3>
+   <form>
+            <input id="radio3-1" class="radio-button" name="radio-group" type="radio">
+            <label for="radio3-1" class="radio-button-label">Täysin eri mieltä</label>
+           
+            <input id="radio3-2" class="radio-button"name="radio-group" type="radio">
+            <label for="radio3-2" class="radio-button-label">Jokseekin eri mieltä</label>
+           
+            <input id="radio3-3" class="radio-button" name="radio-group" type="radio">
+            <label for="radio3-3" class="radio-button-label">Ei samaa eikä eri mieltä</label>
+           
+            <input id="radio3-4" class="radio-button" name="radio-group" type="radio">
+            <label for="radio3-4" class="radio-button-label">Jokseekin samaa mieltä</label>
+           
+            <input id="radio3-5" class="radio-button" name="radio-group" type="radio">
+            <label for="radio3-5" class="radio-button-label">Täysin samaa mieltä</label>
+          </form>
+           <div class="btn-group">
+             <a href="#question2" class="btn btn-default"><i class="fa fa-angle-double-left"></i> Edellinen</a>
+            <a href="#question4" class="btn btn-default">Seuraava <i class="fa fa-angle-double-right"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <section class="question4" id="question4">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <h3><b>Saatko mielestäsi tarpeellisen tiedon opettajalta?</b></h3>
+   <form>
+            <input id="radio4-1" class="radio-button" name="radio-group" type="radio">
+            <label for="radio4-1" class="radio-button-label">Täysin eri mieltä</label>
+           
+            <input id="radio4-2" class="radio-button"name="radio-group" type="radio">
+            <label for="radio4-2" class="radio-button-label">Jokseekin eri mieltä</label>
+           
+            <input id="radio4-3" class="radio-button" name="radio-group" type="radio">
+            <label for="radio4-3" class="radio-button-label">Ei samaa eikä eri mieltä</label>
+           
+            <input id="radio4-4" class="radio-button" name="radio-group" type="radio">
+            <label for="radio4-4" class="radio-button-label">Jokseekin samaa mieltä</label>
+           
+            <input id="radio4-5" class="radio-button" name="radio-group" type="radio">
+            <label for="radio4-5" class="radio-button-label">Täysin samaa mieltä</label>
+          </form>
+          
+           <div class="btn-group">
+             <a href="#question3" class="btn btn-default"><i class="fa fa-angle-double-left"></i> Edellinen</a>
+            <a href="#question5" class="btn btn-default">Seuraava <i class="fa fa-angle-double-right"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="question5" id="question5">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <h3><b>Anna palautetta</b></h3>
+          <form id="#" name="#" action="#" method="post">
+            <textarea rows="5" cols="50" placeholder="Kirjoita vapaa kommentti tähän..."></textarea>
+          </form>
+           <div class="btn-group">
+             <a href="#question4" class="btn btn-default"><i class="fa fa-angle-double-left"></i> Edellinen</a>
+            <a href="javascript:submitFormWithValue('foo')" class="btn btn-default">Lähetä <i class="fa fa-paper-plane"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
