@@ -1,0 +1,457 @@
+body {
+  overflow-y: hidden;
+}
+
+/* Header */
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header h2 {
+  font-size: 40px;
+  color: #EE7600;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+header .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+header .btn-default {
+  display: block;
+  margin: auto;
+  border: 2px solid #EE7600;
+  color: #fff;
+  background-color: #222;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+header .btn-default:hover,
+header .btn-default:focus {
+  background-color: #EE7600;
+  border: 2px solid #EE7600;
+  color: #fff;
+}
+
+/* Question 1 */
+
+.question1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EE7600;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.question1 h3 {
+  font-size: 40px;
+  color: #222;
+}
+
+.question1 .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+form {
+  max-width: 250px;
+}
+
+
+.question1 .btn-default {
+  border: 2px solid #222;
+  width: 100%;
+  color: #fff;
+  background-color: #EE7000;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.question1 .btn-group {
+  width: 100%;
+}
+
+.question1 .btn-default:hover,
+.question1 .btn-default:focus {
+  background-color: #222;
+  color: #fff;
+}
+
+.radio-button {
+    opacity: 0;
+    position: absolute;   
+}
+
+.radio-button, .radio-button-label {
+    display: block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.radio-button-label {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.radio-button + .radio-button-label:before {
+    content: '';
+    background: #EE7600;
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.radio-button + .radio-button-label:before {
+    border-radius: 50%;
+}
+
+.radio-button:checked + .radio-button-label:before {
+    background: #222;
+    border: 2px solid #fff;
+}
+
+
+.radio-button:focus + .radio-button-label {
+  outline: none; 
+}
+/* Question 2 */
+
+.question2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.question2 h3 {
+  font-size: 40px;
+  color: #EE7600;
+}
+
+.question2 .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.question2 .btn-default {
+  border: 2px solid #EE7600;
+  width: 50%;
+  color: #fff;
+  background-color: #222;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.question2 .btn-group {
+  width: 100%;
+}
+
+.question2 .btn-default:hover,
+.question2 .btn-default:focus {
+  background-color: #EE7600;
+  color: #fff;
+}
+
+/* Question 3 */
+
+.question3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EE7600;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.question3 h3 {
+  font-size: 40px;
+  color: #222;
+}
+
+.question3 .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.question3 .btn-default {
+  border: 2px solid #222;
+  width: 50%;
+  color: #fff;
+  background-color: #EE7000;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.question3 .btn-group {
+  width: 100%;
+}
+
+.question3 .btn-default:hover,
+.question3 .btn-default:focus {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Question 4 */
+
+.question4 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.question4 h3 {
+  font-size: 40px;
+  color: #EE7600;
+}
+
+.question4 .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.question4 .btn-default {
+  border: 2px solid #EE7600;
+  width: 50%;
+  color: #fff;
+  background-color: #222;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.question4 .btn-group {
+  width: 100%;
+}
+
+.question4 .btn-default:hover,
+.question4 .btn-default:focus {
+  background-color: #EE7600;
+  color: #fff;
+}
+
+/* Question 5 */
+
+.question5 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EE7600;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.question5 h3 {
+  font-size: 40px;
+  color: #222;
+}
+
+.question5 .row {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.question5 .btn-default {
+  border: 2px solid #222;
+  width: 50%;
+  color: #fff;
+  background-color: #EE7000;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.question5 .btn-group {
+  width: 100%;
+}
+
+.question5 .btn-default:hover,
+.question5 .btn-default:focus {
+  background-color: #222;
+  color: #fff;
+}
+
+textarea {
+  margin-top: 25px;
+  resize: none;
+  background-color: #222;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  margin-bottom: 25px;
+  height: 300px;
+  width: 738px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #EE7000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #EE7000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #EE7000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #EE7000;
+}
+
+@media (max-width: 764px) {
+/* Header */
+
+header h2 {
+  font-size: 30px;
+}
+
+header p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+header .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Question 1 */
+  
+.question1 h3 {
+  font-size: 30px;
+}
+
+.question1 .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.radio-button-label {
+    font-size: 15px;
+}
+
+.radio-button + .radio-button-label:before {
+    width: 20px;
+    height: 20px;
+}
+
+/* Question 2 */
+
+.question2 h3 {
+  font-size: 30px;
+}
+
+.question2 .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Question 3 */
+
+.question3 h3 {
+  font-size: 30px;
+  color: #222;
+}
+
+.question3 .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Question 4 */
+
+.question4 h3 {
+  font-size: 30px;
+}
+
+.question4 .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Question 5 */
+
+.question5 h3 {
+  font-size: 30px;
+}
+
+.question5 .btn-default {
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+textarea {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  height: 200px;
+  width: 505px;
+}
+}
+
+@media (max-width: 600px) {
+  textarea {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  height: 200px;
+  width: 100%;
+}
+}

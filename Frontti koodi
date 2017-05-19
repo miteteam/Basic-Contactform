@@ -1,21 +1,4 @@
-# Basic-Contactform
-Basic Contact form school project
- 
-A school project, creating a contact form for a school questionnaire. The questionnaire is about finding out what ICT-students in our school think about our degree programme.
- 
- We have two teams working together.
- 
- Team Mite
- (digital services students) are focusing on the front-end and content.
- -Mikko Roitto (product owner)
- -Teemu Pätäri (scrum master)
- 
- Team Siic;li
- (programming students) are focusing on the back-end coding.
- 
---HTML--
-
- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
   <header>
       <div class="col-xs-12">
@@ -168,4 +151,3 @@ A school project, creating a contact form for a school questionnaire. The questi
       </div>
     </div>
   </section>
- 
